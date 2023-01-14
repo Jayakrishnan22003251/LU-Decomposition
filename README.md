@@ -23,12 +23,12 @@ Developed by: JAYAKRISHNAN L B L
 RegisterNumber: 22003251
 */
 ```
-   import numpy as np
-   from scipy.linalg import lu 
-   a=np.array(eval(input()))
-   P,L,U=lu(a)
-   print(L)
-   print(U)
+     import numpy as np
+     from scipy.linalg import lu 
+     a=np.array(eval(input()))
+     P,L,U=lu(a)
+     print(L)
+     print(U)
 
 (ii) To find the LU Decomposition of a matrix
 ```
@@ -38,13 +38,13 @@ Developed by: JAYAKRISHNAN L B L
 RegisterNumber: 22003251
 */
 ```
-  import numpy as np
-  from scipy.linalg import lu_factor,lu_solve
-  a=np.array(eval(input()))
-  b=np.array(eval(input()))
-  lu,piv=lu_factor(a)
-  x=lu_solve((lu,piv),b)
-  print(x)
+    import numpy as np
+    from scipy.linalg import lu_factor,lu_solve
+    a=np.array(eval(input()))
+    b=np.array(eval(input()))
+    lu,piv=lu_factor(a)
+    x=lu_solve((lu,piv),b)
+    print(x)
 
 
 
